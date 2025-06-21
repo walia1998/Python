@@ -22,3 +22,15 @@ class Animal:
 
     def speak(self):
         print("Animal generic sound")
+
+
+
+| Concept           | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Class             | Blueprint for creating objects (`Animal`, `Dog`)                       |
+| Object            | Instance of a class (`d = Dog("Bruno")`)                               |
+| Constructor       | `__init__()` method runs automatically when object is created          |
+| Inheritance       | `Dog` gets properties and methods from `Animal`                        |
+| Method Overriding | `Dog` defines its own `speak()` method to override the one in `Animal` |
+| Class Variable    | `location = "Australia"` shared by all instances                       |
+| Instance Variable | `self.name` is unique for each object                                  |
